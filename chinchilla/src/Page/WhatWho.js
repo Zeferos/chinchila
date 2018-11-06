@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import styled from 'styled-components';
 
 const Background = styled.div`
-    min-height : 100vh;
+    height : 100vh;
     background-color : #6cd1fd;
 `
 
@@ -12,7 +12,7 @@ class WhatWho extends Component {
     return (
       <div className="App">
       <Background>
-          <p>WhatWho</p>
+          <img src='.\images\Desktop2\BGs2.png' width="100%" height="100%" />
           </Background>
       </div>
     );
