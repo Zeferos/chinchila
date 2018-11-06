@@ -12,7 +12,7 @@ class WhatWho extends Component {
     return (
       <div className="App">
       <Background>
-          <img src='.\images\Desktop2\BGs2.png' width="100%" height="100%" />
+          <img src='.\images\Desktop2\BGs2.png' width="100%"/>
           </Background>
       </div>
     );
