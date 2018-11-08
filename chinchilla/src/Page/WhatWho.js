@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import styled, { keyframes } from 'styled-components';
 // Create the keyframes
-const rotate = keyframes`
+const colorchange = keyframes`
   0% {
     background-color: #6cd1fd;
 }
@@ -13,27 +13,42 @@ const rotate = keyframes`
     background-color: #6cd1fd;
 
 }
-`;
+`
+
 const Background = styled.div`
     height : 100vh;
     background-color : #6cd1fd;
-    animation: ${rotate} 5s linear infinite;
+    background-attachment: fixed;
+    animation: ${colorchange} 5s linear infinite;
+    z-index: -1;
+`
+const background1 = styled.img`
+  // margin-top: -1000px;
+  // margin-left: 100px;
+  width: 100%;
+  z-index: 0;
+`
+const background2 = styled.img`
+  margin-top: -1000px;
+  margin-left: 100px;
+  position: absolute;
+  margin-right: 200px;
+  width: 100%;
+  z-index: 1;
 `
 
-
-// Here we create a component that will rotate everything we pass in over two seconds
-const Rotate = styled.div`
-//   background-color: red;
-  animation: ${rotate} 2s linear infinite;
-`;
+const ColorChange = styled.div`
+  animation: ${colorchange} 2s linear infinite;
+`
 
 class WhatWho extends Component {
   render() {
     return (
       <div className="App">
       <Background>
-      <Rotate>&lt; 💅 ">">">">&gt;</Rotate>
-         <img src='.\images\Desktop2\s4-1.png' width="100%" />
+      <background1 src='.\images\Desktop2\s4.png' />
+      <background1 src='.\images\Desktop2\Group_2.png'/>
+
           </Background>
       </div>
     );
