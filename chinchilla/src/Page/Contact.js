@@ -16,7 +16,7 @@ class Contact extends Component {
         return (
             <div>
                 <Background>
-                <Contacttxt><a>Contact</a></Contacttxt>
+                    <Contacttxt><a>Contact</a></Contacttxt>
                 </Background>
             </div>
         );

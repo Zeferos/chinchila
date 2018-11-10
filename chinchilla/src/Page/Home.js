@@ -7,15 +7,29 @@ const Background = styled.div`
     background-color : #9be4ea;
 `
 const Mascot = styled.img`
-  margin-top: -700px;
-  margin-left: 250px;
+  // margin-top: -700px;
+  // margin-left: 250px;
+  // width: 35%;
+  position: absolute;
+  left: 15.625em;
+  top: 20em;
   width: 35%;
 `
-const Group2 = styled.img`
+const HelloWorld = styled.img`
 
-   margin-top: -91.875em;
-   margin-left: 20em;
-   width: 75%;
+  //  margin-top: -91.875em;
+  //  margin-left: 20em;
+  //  width: 75%;
+
+  // position: absolute;
+  // left: 19.70em;
+  // top: 10.5em;
+  // width: 75%;
+
+  position: absolute;
+  left: 12.75em;
+  top: 10em;
+  width: 75%;
 `
 
 const Frame2 = styled.img`
@@ -56,7 +70,7 @@ class Home extends Component {
         <Background>
           <BG2 src='.\images\Desktop1\P1BGnew.png' />
           <Mascot src='.\images\Desktop1\Model-01.png' />
-          <Group2 src='.\images\Desktop1\Group 2.png' />
+          <HelloWorld src='.\images\Desktop1\Group 2.png' />
           <Frame2 src='.\images\Desktop1\Frame.png' />
           <Alchemist src='.\images\Desktop1\alchemist.png' />
           <KMUTT src='.\images\Desktop1\kmutt.png' />

@@ -13,7 +13,7 @@ class FAQ extends Component {
         return (
             <div>
                 <Background>
-                <FAQBG src='.\images\FAQ\bg-01.png'/>
+                    <FAQBG src='.\images\FAQ\bg-01.png' />
                 </Background>
             </div>
         );

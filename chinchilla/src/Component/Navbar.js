@@ -21,19 +21,16 @@ class Navbar extends Component {
   render() {
     return (
       <div>
-        <nav class="navbar navbar-expand-lg navbar-fixed-top navbar-light bg-light ">
-         
+        <nav class="navbar navbar-expand-lg navbar-fixed-top navbar-light bg-light sticky-top ">
             <a class="navbar-brand text-info" href="#">Navbar</a>
-
             <BoxA>
               <BoxTeam><a>What</a></BoxTeam>
               <BoxTeam><a>Who</a></BoxTeam>
               <BoxTeam><a>When</a></BoxTeam>
               <BoxTeam><a>Where</a></BoxTeam>
             </BoxA>
-
-          
         </nav>
+        
       </div>
     );
   }
