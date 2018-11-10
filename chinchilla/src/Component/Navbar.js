@@ -13,7 +13,7 @@ text-align: center;
 display : inline-block;
 padding : 10px;
 font-family: 'Mali SemiBold';
-text-size : 20px;
+text-size : 30px;
 
 `
 
@@ -79,3 +79,4 @@ class Navbar extends Component {
 //     </form>
 //   </div>
 // </nav>
+
