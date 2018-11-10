@@ -16,7 +16,7 @@ const Rex1 = styled.img`
  top: 135em;
  left: 55em;
  width: 40%;
- height: 120%;
+ height: 130%;
  opacity: 0.2;
 `
 const Rex2 = styled.img`
@@ -24,8 +24,45 @@ const Rex2 = styled.img`
  top: 135em;
  left: 2em;
  width: 55%;
- height: 120%;
+ height: 130%;
  opacity: 0.2;
+`
+const Map = styled.img`
+position: absolute;
+top: 146em;
+left: 8.3em;
+width: 42%;
+`
+const Timeline = styled.img`
+ position: absolute;
+ top: 147em;
+ left: 62em;
+ width: 27.5%;
+`
+const Where = styled.div`
+position: absolute;
+top: 283%;
+left: 7%;
+font-family: 'Mali SemiBold';
+font-size : 90px;
+color: black;
+`
+const When = styled.div`
+position: absolute;
+top: 283%;
+left: 63%;
+font-family: 'Mali SemiBold';
+font-size : 90px;
+color: black;
+`
+const Name = styled.div`
+position: absolute;
+top: 387%;
+left: 7%;
+textAlign: 'center';
+font-family: 'Mali SemiBold';
+font-size : 35px;
+color: black;
 `
 class WhereWhen extends Component {
     render() {
@@ -36,7 +73,11 @@ class WhereWhen extends Component {
                     <WhereWhenFrame src='.\images\WhereWhen\Frame.png' />
                     <Rex1 src='.\images\WhereWhen\Rectangle.png' />
                     <Rex2 src='.\images\WhereWhen\Rectangle2.png' />
-
+                    <Where><a>Where</a></Where>
+                    <When><a>When</a></When>
+                    <Map src='.\images\WhereWhen\map.png' />
+                    <Timeline src='.\images\WhereWhen\timeline.png' />
+                    <Name><a>คณะเทคโนโลยีสารสนเทศ <br></br> มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี</a></Name>
                 </Background>
             </div>
         );
@@ -44,3 +85,4 @@ class WhereWhen extends Component {
 }
 
 export default WhereWhen;
+

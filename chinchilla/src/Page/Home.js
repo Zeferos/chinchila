@@ -42,26 +42,12 @@ margin-top: 0;
 margin-left: 0;
 width: 100%;
 `
-
-const Alchemist = styled.img`
+const Logo = styled.img`
 position: absolute;
-left: 86%;
-top: 66%;
-width: 3%;
+left: 66%;
+top: 60%;
+width: 17%;
 `
-const SIT = styled.img`
-position: absolute;
-left: 76%;
-top: 66%;
-width: 8.5%;
-`
-const KMUTT = styled.img`
-position: absolute;
-left: 71%;
-top: 63%;
-width: 3.7%;
-`
-
 
 class Home extends Component {
   render() {
@@ -72,10 +58,7 @@ class Home extends Component {
           <Mascot src='.\images\Desktop1\Model-01.png' />
           <HelloWorld src='.\images\Desktop1\Group 2.png' />
           <Frame2 src='.\images\Desktop1\Frame.png' />
-          <Alchemist src='.\images\Desktop1\alchemist.png' />
-          <KMUTT src='.\images\Desktop1\kmutt.png' />
-          <SIT src='.\images\Desktop1\sit.png' />
-
+          <Logo src='.\images\Desktop1\logo.png' />
         </Background>
       </div>
     );

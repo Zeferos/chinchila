@@ -7,7 +7,7 @@ const Background = styled.div`
 `
 const Contacttxt = styled.div`
 text-align: center;
-font-family: 'Mali';
+font-family: 'Mali SemiBold';
 font-size : 70px;
 color: white;
 `
