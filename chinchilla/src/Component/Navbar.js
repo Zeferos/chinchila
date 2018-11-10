@@ -4,7 +4,7 @@ import styled from 'styled-components';
 const BoxA = styled.span`
 display : inline-block;
 text-align: center;
-width: 95%;
+width: 100%;
 font-family: 'Mali';
 `
 
@@ -13,34 +13,33 @@ text-align: center;
 display : inline-block;
 padding : 10px;
 font-family: 'Mali SemiBold';
-text-size : 30px;
+font-size : 40px;
 
 `
 
 class Navbar extends Component {
-    render() {
-      return (
-        <div>
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-              <a class="navbar-brand text-info" href="#">Navbar</a>
-              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <BoxA>
-            <BoxTeam><a>What</a></BoxTeam>
-            <BoxTeam><a>Who</a></BoxTeam>
-            <BoxTeam><a>When</a></BoxTeam>
-            <BoxTeam><a>Where</a></BoxTeam>
+  render() {
+    return (
+      <div>
+        <nav class="navbar navbar-expand-lg navbar-fixed-top navbar-light bg-light ">
+         
+            <a class="navbar-brand text-info" href="#">Navbar</a>
+
+            <BoxA>
+              <BoxTeam><a>What</a></BoxTeam>
+              <BoxTeam><a>Who</a></BoxTeam>
+              <BoxTeam><a>When</a></BoxTeam>
+              <BoxTeam><a>Where</a></BoxTeam>
             </BoxA>
 
-              
-            </nav>
-        </div>
-      );
-    }
+          
+        </nav>
+      </div>
+    );
   }
-  
-  export default Navbar;
+}
+
+export default Navbar;
 
 
 

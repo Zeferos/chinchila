@@ -12,11 +12,10 @@ const Mascot = styled.img`
   width: 35%;
 `
 const Group2 = styled.img`
-  
+
    margin-top: -91.875em;
    margin-left: 20em;
    width: 75%;
-   position: 'absolute',
 `
 
 const Frame2 = styled.img`
@@ -30,6 +29,26 @@ margin-left: 0;
 width: 100%;
 `
 
+const Alchemist = styled.img`
+position: absolute;
+left: 86%;
+top: 66%;
+width: 3%;
+`
+const SIT = styled.img`
+position: absolute;
+left: 76%;
+top: 66%;
+width: 8.5%;
+`
+const KMUTT = styled.img`
+position: absolute;
+left: 71%;
+top: 63%;
+width: 3.7%;
+`
+
+
 class Home extends Component {
   render() {
     return (
@@ -37,11 +56,12 @@ class Home extends Component {
         <Background>
           <BG2 src='.\images\Desktop1\P1BGnew.png' />
           <Mascot src='.\images\Desktop1\Model-01.png' />
-          {/* <HelloWorld src='.\images\Desktop1\Hello W rld.png' />
-          <Paws src='.\images\Desktop1\paw 2.png' />
-          <Chinchilla src='.\images\Desktop1\Chinchilla.png' /> */}
           <Group2 src='.\images\Desktop1\Group 2.png' />
           <Frame2 src='.\images\Desktop1\Frame.png' />
+          <Alchemist src='.\images\Desktop1\alchemist.png' />
+          <KMUTT src='.\images\Desktop1\kmutt.png' />
+          <SIT src='.\images\Desktop1\sit.png' />
+
         </Background>
       </div>
     );
@@ -52,19 +72,3 @@ export default Home;
 
 
 
-
-// const HelloWorld = styled.img`
-// margin-top: -1600px;
-// margin-left: 270px;
-// width: 60%;
-// `
-// const Paws = styled.img`
-// margin-top: -1620px;
-// margin-left: 825px;
-// width: 9%;
-// `
-// const Chinchilla = styled.img`
-// margin-top: -1450px;
-// margin-left: 1000px;
-// width: 25%;
-// `
