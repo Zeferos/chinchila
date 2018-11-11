@@ -19,6 +19,7 @@ class App extends Component {
         </ul>
         <div id="Summer"></div>
         <Home />
+
         <div id="Winter"></div>
         <WhatWho />
         <div id="Spring"></div>

@@ -28,7 +28,7 @@ const Snow = styled.img`
   top: 133em;
   left: 5em;
   position: absolute;
-  width: 14%;
+  width: 22%;
   z-index: 3;
 `
 const Model = styled.img`
@@ -36,14 +36,14 @@ const Model = styled.img`
   top: 93em;
   right : 0em;
   position: absolute;
-  width: 25%;
+  width: 30%;
   z-index: 4;
 `
 const Rectangle1 = styled.img`
   position: absolute;
   top: 88em;
   left: 3.5em;
-  width: 960px;
+  width: 1200px;
   height: 634px;
   opacity: 0.3;
   blend : soft-light;

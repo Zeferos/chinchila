@@ -9,9 +9,10 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: rgb(247,186,220);
-    position: fixed;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
     top: 0;
-    
     width: 100%;
     z-index: 50;
 }
@@ -19,13 +20,13 @@ ul {
 li {
     float: left;
     z-index: 50;
-    margin-left: 237px;
+    margin-left: 220px;
 
 }
 
 li a {
     display: block;
-    color: rgb(0, 0, 0);
+    color: rgb(105, 105, 105);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -36,11 +37,20 @@ li a {
 }
 
 li a:hover:not(.active) {
-    background-color: rgb(235,162,254);
+    background-color: rgb(252, 170, 215);
+    color: rgb(245, 16, 207);
     z-index: 50;
 }
 
 .active {
     background-color: rgb(235,162,254);
     z-index: 50;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+a:active {
+    color: rgb(245, 16, 207);
 }
