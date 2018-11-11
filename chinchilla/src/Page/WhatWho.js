@@ -45,7 +45,7 @@ const Rectangle1 = styled.img`
   left: 3.5em;
   width: 960px;
   height: 634px;
-  opacity: 0.5;
+  opacity: 0.3;
   blend : soft-light;
   color: white;
   Radius: 20px;
@@ -58,7 +58,7 @@ const Rectangle2 = styled.img`
   right: 6em;
   width: 980px;
   height: 213px;
-  opacity: 0.65;
+  opacity: 0.35;
   blend : soft-light;
   color: white;
   Radius: 100px;
