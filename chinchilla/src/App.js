@@ -11,14 +11,18 @@ class App extends Component {
     return (
       <div className="App">
         <ul>
-          <li><a class="active" href="#home">Hello!</a></li>
-          <li><a href="#news">Winter</a></li>
-          <li><a href="#contact">Rainning</a></li>
-          <li><a href="#about">Spring</a></li>
+          <li><a href="#Summer">Summer</a></li>
+          <li><a href="#Winter">Winter</a></li>
+          <li><a href="#Spring">Spring</a></li>
+          <li><a href="#Autumn">Autumn</a></li>
         </ul>
+        <div id="Summer"></div>
         <Home />
+        <div id="Winter"></div>
         <WhatWho />
+        <div id="Spring"></div>
         <WhereWhen />
+        <div id="Autumn"></div>
         <FAQ />
         <Contact />
       </div>

@@ -62,9 +62,9 @@ class Contact extends Component {
                     <Phone src='.\images\Contact\phone-call.png' />
                     <Line1 src='.\images\Contact\stline.png' />
                     <Line2 src='.\images\Contact\stline.png' />
-                    <Facebook src='.\images\Contact\facebook.png' />
-                    <Instragram src='.\images\Contact\instagram.png' />
-                    <LineApp src='.\images\Contact\line.png' />
+                    <a href="https://www.facebook.com/alchemistitbangmod/"><Facebook src='.\images\Contact\facebook.png'  /></a>
+                    <a href="https://www.instagram.com/?hl=th"><Instragram src='.\images\Contact\instagram.png' /></a>
+                    <a href="https://line.me/en/"><LineApp src='.\images\Contact\line.png' /></a>
                     <Mail src='.\images\Contact\mail-black-envelope-symbol.png' />
 
                 </Background>
@@ -74,3 +74,5 @@ class Contact extends Component {
 }
 
 export default Contact;
+
+//href="https://www.facebook.com/alchemistitbangmod/"
