@@ -8,7 +8,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(247,186,220);
     position: fixed;
     top: 0;
     
@@ -20,6 +20,7 @@ li {
     float: left;
     z-index: 50;
     margin-left: 237px;
+
 }
 
 li a {
@@ -29,14 +30,17 @@ li a {
     padding: 14px 16px;
     text-decoration: none;
     z-index: 50;
+    font-family: 'Mali SemiBold';
+    font-size :20px;
+
 }
 
 li a:hover:not(.active) {
-    background-color: rgb(204, 139, 212);
+    background-color: rgb(235,162,254);
     z-index: 50;
 }
 
 .active {
-    background-color: rgb(223, 89, 194);
+    background-color: rgb(235,162,254);
     z-index: 50;
 }

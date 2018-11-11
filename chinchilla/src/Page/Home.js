@@ -7,25 +7,12 @@ const Background = styled.div`
     background-color : #9be4ea;
 `
 const Mascot = styled.img`
-  // margin-top: -700px;
-  // margin-left: 250px;
-  // width: 35%;
   position: absolute;
   left: 15.625em;
   top: 20em;
   width: 35%;
 `
 const HelloWorld = styled.img`
-
-  //  margin-top: -91.875em;
-  //  margin-left: 20em;
-  //  width: 75%;
-
-  // position: absolute;
-  // left: 19.70em;
-  // top: 10.5em;
-  // width: 75%;
-
   position: absolute;
   left: 12.75em;
   top: 10em;

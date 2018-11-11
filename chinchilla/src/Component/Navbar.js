@@ -1,37 +1,36 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
 
-const BoxA = styled.span`
-display : inline-block;
-text-align: center;
-width: 100%;
-font-family: 'Mali';
-`
 
-const BoxTeam = styled.a`
-text-align: center;
-display : inline-block;
-padding : 10px;
+
+const Font = styled.a`
+// text-align: center;
+// display : inline-block;
+// padding : 10px;
 font-family: 'Mali SemiBold';
-font-size : 40px;
+font-size :30px;
 
 `
 
 class Navbar extends Component {
   render() {
     return (
-      <div>
-        <nav class="navbar navbar-expand-lg navbar-fixed-top navbar-light bg-light sticky-top ">
-            <a class="navbar-brand text-info" href="#">Navbar</a>
-            <BoxA>
-              <BoxTeam><a>What</a></BoxTeam>
-              <BoxTeam><a>Who</a></BoxTeam>
-              <BoxTeam><a>When</a></BoxTeam>
-              <BoxTeam><a>Where</a></BoxTeam>
-            </BoxA>
+        <nav class="navbar navbar-default navbar-fixed-top">
+
+          <div class="container">
+
+            {/* <Font> */}
+              <a class="navbar-brand align- text-info navbar-right" href="#">Home</a>
+              <a class="navbar-brand text-info" href='#What'>What</a>
+              <a class="navbar-brand text-info" href="#Who">Who</a>
+              <a class="navbar-brand text-info" href="#Where">Where</a>
+              <a class="navbar-brand text-info" href="#When">When</a>
+              <a class="navbar-brand text-info" href="#FAQ">FAQ</a>
+              <a class="navbar-brand text-info" href="#Contact">Contact</a>
+              
+          </div>
         </nav>
-        
-      </div>
+
     );
   }
 }
