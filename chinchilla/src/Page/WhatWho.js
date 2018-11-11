@@ -29,6 +29,36 @@ const Frame = styled.img`
   width: 100%;
   z-index: 2;
 `
+const Snow = styled.img`
+  margin-top : 30px;
+  top: 133em;
+  left: 5em;
+  position: absolute;
+  width: 14%;
+  z-index: 3;
+`
+const Model = styled.img`
+  margin-top : 30px;
+  top: 93em;
+  right : 0em;
+  position: absolute;
+  width: 25%;
+  z-index: 4;
+`
+const Rectangle1 = styled.img`
+  position: absolute;
+  top: 90em;
+  left: 3em;
+  width: 960px;
+  height: 634px;
+  blend: Soft Light;
+  opacity: 0.1;
+  color: #FFFFFF;
+  effect: Drop Shadow;
+  Radius: 20px;
+  Offset: 0px, 4px;
+  z-index : 4;
+`
 
 class WhatWho extends Component {
   render() {
@@ -38,6 +68,9 @@ class WhatWho extends Component {
             <Group src='.\images\Desktop2\Group.png' />
             <Group_2 src='.\images\Desktop2\Group_2.png' />
             <Frame src='.\images\Desktop2\Frame.png' />
+            <Snow src='.\images\Desktop2\snow.png' />
+            <Model src='.\images\Desktop2\Model-01ice.png' />
+            <Rectangle1 src='.\images\Desktop2\Rectangle1.png' />
           </Background>
       </div>
     );
