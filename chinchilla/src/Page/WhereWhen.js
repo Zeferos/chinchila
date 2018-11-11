@@ -30,19 +30,19 @@ const Rex2 = styled.img`
 `
 const Map = styled.img`
 position: absolute;
-top: 181em;
+top: 180em;
 left: 8.3em;
 width: 42%;
 `
 const Timeline = styled.img`
  position: absolute;
- top: 182em;
+ top: 180em;
  left: 62em;
  width: 27.5%;
 `
 const Where = styled.div`
 position: absolute;
-top: 355%;
+top: 368%;
 left: 7%;
 font-family: 'Mali SemiBold';
 font-size : 90px;
@@ -50,7 +50,7 @@ color: black;
 `
 const When = styled.div`
 position: absolute;
-top: 355%;
+top: 368%;
 left: 63%;
 font-family: 'Mali SemiBold';
 font-size : 90px;
@@ -58,7 +58,7 @@ color: black;
 `
 const Name = styled.div`
 position: absolute;
-top: 458%;
+top: 473%;
 left: 7%;
 textAlign: 'center';
 font-family: 'Mali SemiBold';

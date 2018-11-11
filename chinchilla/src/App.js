@@ -12,10 +12,10 @@ class App extends Component {
       <div className="App">
         {/* <Navbar /> */}
         <ul>
-          <li><a class="active" href="#home">Home</a></li>
-          <li><a href="#news">News</a></li>
-          <li><a href="#contact">Contact</a></li>
-          <li><a href="#about">About</a></li>
+          <li><a class="active" href="#home">Hello!</a></li>
+          <li><a href="#news">Winter</a></li>
+          <li><a href="#contact">Rainning</a></li>
+          <li><a href="#about">Spring</a></li>
         </ul>
         <Home />
         <WhatWho />

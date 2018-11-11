@@ -93,6 +93,45 @@ const Whoimg = styled.img`
   width: 4%;
   z-index: 4;
 `
+const What = styled.div`
+  position: absolute;
+  top: 22.05em;
+  right: 19.25em;
+  textAlign: 'center';
+  font-family: 'Mali SemiBold';
+  font-size : 65px;
+  color: black;
+  z-index : 6;
+  
+`
+const Whattext = styled.div`
+  position: absolute;
+  top: 50.75em;
+  left : 5.2em;
+  textAlign: 'center';
+  font-family: 'Mali SemiBold';
+  font-size : 30px;
+  color: black;
+  z-index : 6;
+`
+const Whatimg = styled.img`
+  margin-top : 30px;
+  top: 97.55em;
+  left : 11.5em;
+  position: absolute;
+  width: 40%;
+  z-index: 4;
+`
+const Whattext2 = styled.div`
+  position: absolute;
+  top: 59.75em;
+  left : 5.2em;
+  textAlign: 'center';
+  font-family: 'Mali SemiBold';
+  font-size : 30px;
+  color: black;
+  z-index : 6;
+`
 
 class WhatWho extends Component {
   render() {
@@ -107,8 +146,14 @@ class WhatWho extends Component {
 
             <Snow src='.\images\Desktop2\snow.png' />
             <Model src='.\images\Desktop2\Model-01ice.png' />
+
             <Rectangle1 src='.\images\Desktop2\Rectangle1.png' />
             <Whoimg src='.\images\Desktop2\33308.png' />
+            <What><a>What</a></What>
+            <What><a>What</a></What>
+            <Whattext><a>ค่ายสำหรับน้องๆที่มีความสนใจด้าน IT โดยค่ายนี้จะให้ความรู้ 4 ด้าน คือ </a></Whattext>
+            <Whatimg src='.\images\Desktop2\Who\What.png' />
+            <Whattext2><a>ค่ายนี้ประกอบด้วยการเรียนและปฏิบัติจริง มีกิจกรรมต่างๆมากมาย <br></br> รวมถึงมีเกมให้เล่นและได้รู้จักเพื่อนๆมากมายภายในค่ายได้ที่ <br></br> มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี </a></Whattext2>
 
           </Background>
       </div>

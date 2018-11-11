@@ -16,16 +16,16 @@ width: 25%;
 `
 const FAQs = styled.div`
 position: absolute;
-top: 530%;
-left: 42.5%;
+top: 531.5%;
+left: 41.5%;
 font-family: 'Mali SemiBold';
 font-size : 90px;
 color: black;
 `
 const FAQsth = styled.div`
 position: absolute;
-top: 546%;
-left: 52.5%;
+top: 547.5%;
+left: 51.5%;
 font-family: 'Mali';
 font-size : 35px;
 color: black;
@@ -131,7 +131,7 @@ top: 302.5em;
 `
 const Q1 = styled.div`
 position: absolute;
-top: 569.6%;
+top: 590.6%;
 left: 21.5%;
 font-family: 'Mali';
 font-size : 35px;
@@ -139,7 +139,7 @@ color: black;
 `
 const A1 = styled.div`
 position: absolute;
-top: 585%;
+top: 606.9%;
 left: 21.5%;
 font-family: 'Mali';
 font-size : 35px;
@@ -147,7 +147,7 @@ color: black;
 `
 const Q2 = styled.div`
 position: absolute;
-top: 607%;
+top: 629.7%;
 left: 21.5%;
 font-family: 'Mali';
 font-size : 35px;
@@ -155,7 +155,7 @@ color: black;
 `
 const A2 = styled.div`
 position: absolute;
-top: 623.2%;
+top: 646.2%;
 left: 19%;
 font-family: 'Mali';
 font-size : 35px;
