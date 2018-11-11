@@ -29,17 +29,73 @@ const Snow = styled.img`
   top: 133em; */
   left: 5em;
   position: absolute;
+<<<<<<< HEAD
   width: 14%;
   z-index: 5;
   bottom: 0;
+=======
+  width: 22%;
+  z-index: 3;
+>>>>>>> 5cc8dd22083137eaad6b8c6951a04f639777aec1
 `
 const Model = styled.img`
   /* margin-top : 30px;
   top: 93em; */
   right : 0em;
   position: absolute;
+<<<<<<< HEAD
   width: 25%;
   z-index: 5;
+=======
+  width: 30%;
+  z-index: 4;
+`
+const Rectangle1 = styled.img`
+  position: absolute;
+  top: 88em;
+  left: 3.5em;
+  width: 1200px;
+  height: 634px;
+  opacity: 0.3;
+  blend : soft-light;
+  color: white;
+  Radius: 20px;
+  z-index : 4;
+`
+const Rectangle2 = styled.img`
+  position: absolute;
+  margin-top : 30px;
+  top: 132.7em;
+  right: 6em;
+  width: 980px;
+  height: 213px;
+  opacity: 0.35;
+  blend : soft-light;
+  color: white;
+  Radius: 100px;
+  z-index : 4;
+`
+const Who = styled.div`
+  position: absolute;
+  top: 33.42em;
+  right: 13.75em;
+  textAlign: 'center';
+  font-family: 'Mali SemiBold';
+  font-size : 65px;
+  color: black;
+  z-index : 6;
+  
+`
+const Whotext = styled.div`
+  position: absolute;
+  top: 72.95em;
+  right: 11.9em;
+  textAlign: 'center';
+  font-family: 'Mali SemiBold';
+  font-size : 30px;
+  color: black;
+  z-index : 6;
+>>>>>>> 5cc8dd22083137eaad6b8c6951a04f639777aec1
 `
 const Content = styled.div`
   position: absolute;
