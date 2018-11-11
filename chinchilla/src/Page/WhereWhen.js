@@ -18,7 +18,7 @@ top: 170em;
  left: 55em;
  width: 40%;
  height: 130%;
- opacity: 0.2;
+ opacity: 0.1;
 `
 const Rex2 = styled.img`
  position: absolute;
@@ -26,7 +26,7 @@ const Rex2 = styled.img`
  left: 2em;
  width: 55%;
  height: 130%;
- opacity: 0.2;
+ opacity: 0.1;
 `
 const Map = styled.img`
 position: absolute;
