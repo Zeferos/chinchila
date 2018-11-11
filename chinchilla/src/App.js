@@ -10,7 +10,6 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        {/* <Navbar /> */}
         <ul>
           <li><a href="#Summer">Summer</a></li>
           <li><a href="#Winter">Winter</a></li>
