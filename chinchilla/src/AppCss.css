@@ -1,6 +1,5 @@
 body {
     margin:0;
-    z-index: 50;
 }
 
 ul {
@@ -11,7 +10,6 @@ ul {
     background-color: rgb(255, 255, 255);
     position: fixed;
     top: 0;
-    
     width: 100%;
     z-index: 50;
 }
@@ -19,7 +17,7 @@ ul {
 li {
     float: left;
     z-index: 50;
-    margin-left: 237px;
+    margin-left: 232px;
 }
 
 li a {
