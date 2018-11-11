@@ -3,9 +3,9 @@ import styled from 'styled-components';
 
 const Background = styled.div`
   height : absolute;
-  min-height : 1200px;
+  min-height : 1315px;
   background-color : #6cd1fd;
-  margin-bottom : 500px;
+  // margin-bottom : 500px;
   z-index: -1;
 `
 const Group_2 = styled.img`

@@ -13,43 +13,43 @@ color: white;
 `
 const Line1 = styled.img`
  position: absolute;
- top: 295em;
+ top: 329em;
  left: 25em;
  width: 0.3%;
 `
 const Line2 = styled.img`
  position: absolute;
- top: 295em;
+ top: 329em;
  left: 69em;
  width: 0.3%;
 `
 const Phone = styled.img`
  position: absolute;
- top: 300em;
+ top: 333em;
  left: 14em;
  width: 5%;
 `
 const Facebook = styled.img`
  position: absolute;
- top: 300em;
+ top: 333em;
  left: 31.5em;
  width: 5%;
 `
 const Instragram = styled.img`
  position: absolute;
- top: 300em;
+ top: 333em;
  left: 45.5em;
  width: 5%;
 `
 const LineApp = styled.img`
  position: absolute;
- top: 300em;
+ top: 333em;
  left: 59em;
  width: 5%;
 `
 const Mail = styled.img`
  position: absolute;
- top: 300em;
+ top: 333em;
  left: 75em;
  width: 5%;
 `

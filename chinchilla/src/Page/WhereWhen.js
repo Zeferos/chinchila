@@ -13,7 +13,8 @@ const WhereWhenFrame = styled.img`
 `
 const Rex1 = styled.img`
  position: absolute;
- top: 135em;
+//  top: 135em;
+top: 170em;
  left: 55em;
  width: 40%;
  height: 130%;
@@ -21,7 +22,7 @@ const Rex1 = styled.img`
 `
 const Rex2 = styled.img`
  position: absolute;
- top: 135em;
+ top: 170em;
  left: 2em;
  width: 55%;
  height: 130%;
@@ -29,19 +30,19 @@ const Rex2 = styled.img`
 `
 const Map = styled.img`
 position: absolute;
-top: 146em;
+top: 181em;
 left: 8.3em;
 width: 42%;
 `
 const Timeline = styled.img`
  position: absolute;
- top: 147em;
+ top: 182em;
  left: 62em;
  width: 27.5%;
 `
 const Where = styled.div`
 position: absolute;
-top: 283%;
+top: 355%;
 left: 7%;
 font-family: 'Mali SemiBold';
 font-size : 90px;
@@ -49,7 +50,7 @@ color: black;
 `
 const When = styled.div`
 position: absolute;
-top: 283%;
+top: 355%;
 left: 63%;
 font-family: 'Mali SemiBold';
 font-size : 90px;
@@ -57,13 +58,14 @@ color: black;
 `
 const Name = styled.div`
 position: absolute;
-top: 387%;
+top: 458%;
 left: 7%;
 textAlign: 'center';
 font-family: 'Mali SemiBold';
 font-size : 35px;
 color: black;
 `
+//387&
 class WhereWhen extends Component {
     render() {
         return (

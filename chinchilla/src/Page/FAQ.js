@@ -11,12 +11,12 @@ const FAQBG = styled.img`
 const Leaves = styled.img`
 position: absolute;
 left: 5em;
-top: 215em;
+top: 248em;
 width: 25%;
 `
 const FAQs = styled.div`
 position: absolute;
-top: 445%;
+top: 515%;
 left: 45%;
 font-family: 'Mali SemiBold';
 font-size : 90px;
@@ -24,7 +24,7 @@ color: black;
 `
 const FAQsth = styled.div`
 position: absolute;
-top: 461%;
+top: 531%;
 left: 55%;
 font-family: 'Mali';
 font-size : 35px;
