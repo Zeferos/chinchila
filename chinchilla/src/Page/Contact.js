@@ -2,71 +2,55 @@ import React, { Component } from 'react';
 import styled from 'styled-components';
 
 const Background = styled.div`
-    min-height : 450px;
+    position:relative;
+    /* width: 100vw; */
+    min-height : 50vh;
     background-color : #2b0f2a;
+    /* padding-top: 50px\ */
+    margin-top: 300px;
+    /* z-index: 10; */
 `
-const Contacttxt = styled.div`
-text-align: center;
-font-family: 'Mali SemiBold';
+const Contacttxt = styled.h1`
 font-size : 70px;
 color: white;
 `
-const Line1 = styled.img`
- position: absolute;
- top: 329em;
- left: 25em;
- width: 0.3%;
+
+const Logo = styled.img`
+ width: 50%;
 `
-const Line2 = styled.img`
- position: absolute;
- top: 329em;
- left: 69em;
- width: 0.3%;
+const LineLeft = styled.div`
+    border-right: 5px solid white;
 `
-const Phone = styled.img`
- position: absolute;
- top: 333em;
- left: 14em;
- width: 5%;
-`
-const Facebook = styled.img`
- position: absolute;
- top: 333em;
- left: 31.5em;
- width: 5%;
-`
-const Instragram = styled.img`
- position: absolute;
- top: 333em;
- left: 45.5em;
- width: 5%;
-`
-const LineApp = styled.img`
- position: absolute;
- top: 333em;
- left: 59em;
- width: 5%;
-`
-const Mail = styled.img`
- position: absolute;
- top: 333em;
- left: 75em;
- width: 5%;
+const LineRight = styled.div`
+    border-left: 5px solid white;
 `
 class Contact extends Component {
     render() {
         return (
             <div>
-                <Background>
-                    <Contacttxt><a>Contact</a></Contacttxt>
-                    <Phone src='.\images\Contact\phone-call.png' />
-                    <Line1 src='.\images\Contact\stline.png' />
-                    <Line2 src='.\images\Contact\stline.png' />
-                    <a href="https://www.facebook.com/alchemistitbangmod/"><Facebook src='.\images\Contact\facebook.png'  /></a>
-                    <a href="https://www.instagram.com/?hl=th"><Instragram src='.\images\Contact\instagram.png' /></a>
-                    <a href="https://line.me/en/"><LineApp src='.\images\Contact\line.png' /></a>
-                    <Mail src='.\images\Contact\mail-black-envelope-symbol.png' />
+                <Background className='text-center'>
+                    <Contacttxt>Contact</Contacttxt>
+                    <br/>
+                    <div className='container'>
+                        <div className='row col-12 m-0'>
+                            <div className='col-2'>
+                                <Logo src='.\images\Contact\phone-call.png' />
 
+                            </div>
+                            <LineLeft className='col-1' />
+                            <div className='col-6 row m-0'>
+                                <a href="https://www.facebook.com/alchemistitbangmod/" className='col'><Logo src='.\images\Contact\facebook.png' /></a>
+                                <a href="https://www.instagram.com/?hl=th" className='col'><Logo src='.\images\Contact\instagram.png' /></a>
+                                <a href="https://line.me/en/" className='col'><Logo src='.\images\Contact\line.png' /></a>
+                            </div>
+                            <LineRight className='col-1' />
+
+                            <div className='col-2'>
+                                <Logo src='.\images\Contact\mail-black-envelope-symbol.png' />
+
+                            </div>
+                        </div>
+                    </div>
                 </Background>
             </div>
         );

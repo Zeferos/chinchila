@@ -2,164 +2,38 @@ import React, { Component } from 'react';
 import styled from 'styled-components';
 
 const Background = styled.div`
-    min-height : 1000px;
+position:relative;
+    min-height : 100vh;
     background-color : #fdd7c0;
 `
 const FAQBG = styled.img`
- width: 100%;
+position:absolute;
+ width: 100vw;
+ z-index: 1;
 `
 const Leaves = styled.img`
 position: absolute;
-left: 1em;
-top: 248em;
-width: 25%;
+/* left: 1em;
+top: 248em; */
+width: 20vw;
+z-index:2;
 `
-const FAQs = styled.div`
-position: absolute;
-top: 531.5%;
-left: 41.5%;
-font-family: 'Mali SemiBold';
-font-size : 90px;
-color: black;
-`
-const FAQsth = styled.div`
-position: absolute;
-top: 547.5%;
-left: 51.5%;
-font-family: 'Mali';
-font-size : 35px;
-color: black;
+const Content = styled.div`
+    position:absolute;
+    z-index:3;
 `
 const Qb1 = styled.img`
-position: absolute;
-width: 925px;
-height: 79px;
-left: 308px;
-top: 275em;
+    width: 50%;
+`
+const Box = styled.div`
+    background: rgba(255, 255, 255, 0.9);
+    padding: 10px;
+    border-radius: 8px; 
+    /* width: 40vw; */
+`
+const Question = styled.div`
+    margin: 0;
 
-background: #ECECF1;
-mix-blend-mode: hard-light;
-border-radius: 20px;
-`
-const Ab1 = styled.img`
-position: absolute;
-width: 970px;
-height: 133px;
-left: 19em;
-top: 282.5em;
-background: #ECECF1;
-mix-blend-mode: hard-light;
-border-radius: 20px;
-`
-const Qb2 = styled.img`
-position: absolute;
-width: 985px;
-height: 79px;
-left: 308px;
-top: 293.3em;
-
-background: #ECECF1;
-mix-blend-mode: hard-light;
-border-radius: 20px;
-`
-const Ab2 = styled.img`
-position: absolute;
-width: 1000px;
-height: 133px;
-left: 17em;
-top: 301em;
-
-background: #ECECF1;
-mix-blend-mode: hard-light;
-border-radius: 20px;
-`
-const PQ1 = styled.img`
-position: absolute;
-height: 44px;
-left: 255px;
-top: 276em;
-mix-blend-mode: hard-light;
-transform: rotate(-1deg);
-`
-const PQ2 = styled.img`
-position: absolute;
-height: 44px;
-left: 255px;
-top: 294.5em;
-mix-blend-mode: hard-light;
-transform: rotate(-1deg);
-`
-const PA1 = styled.img`
-position: absolute;
-height: 44px;
-left: 81em;
-top: 285em;
-mix-blend-mode: hard-light;
-transform: rotate(-1.5deg);
-`
-const PA2 = styled.img`
-position: absolute;
-height: 44px;
-left: 81em;
-top: 303.5em;
-mix-blend-mode: hard-light;
-transform: rotate(-1.5deg);
-`
-const Qs1 = styled.img`
-position: absolute;
-width: 5%;
-left: 10em;
-top: 275em;
-`
-const Qs2 = styled.img`
-position: absolute;
-width: 5%;
-left: 10em;
-top: 293.7em;
-`
-const An1 = styled.img`
-position: absolute;
-width: 6%;
-left: 83.5em;
-top: 284em;
-`
-const An2 = styled.img`
-position: absolute;
-width: 6%;
-left: 83.5em;
-top: 302.5em;
-`
-const Q1 = styled.div`
-position: absolute;
-top: 590.6%;
-left: 21.5%;
-font-family: 'Mali';
-font-size : 35px;
-color: black;
-`
-const A1 = styled.div`
-position: absolute;
-top: 606.9%;
-left: 21.5%;
-font-family: 'Mali';
-font-size : 35px;
-color: black;
-`
-const Q2 = styled.div`
-position: absolute;
-top: 629.7%;
-left: 21.5%;
-font-family: 'Mali';
-font-size : 35px;
-color: black;
-`
-const A2 = styled.div`
-position: absolute;
-top: 646.2%;
-left: 19%;
-font-family: 'Mali';
-font-size : 35px;
-color: black;
 `
 class FAQ extends Component {
     render() {
@@ -168,24 +42,52 @@ class FAQ extends Component {
                 <Background>
                     <FAQBG src='.\images\FAQ\bg-01.png' />
                     <Leaves src='.\images\FAQ\leaves.png' />
-                    <FAQs><a>FAQs</a></FAQs>
-                    <FAQsth><a>คำถามที่พบบ่อย?</a></FAQsth>
-                    <Qb1 src='.\images\FAQ\RectangleQ.png' />
-                    <Ab1 src='.\images\FAQ\RectangleA.png' />
-                    <Qb2 src='.\images\FAQ\RectangleQ.png' />
-                    <Ab2 src='.\images\FAQ\RectangleA.png' />
-                    <PQ1 src='.\images\FAQ\PolygonL.png' />
-                    <PQ2 src='.\images\FAQ\PolygonL.png' />
-                    <PA1 src='.\images\FAQ\PolygonR.png' />
-                    <PA2 src='.\images\FAQ\PolygonR.png' />
-                    <Qs1 src='.\images\FAQ\Ques.png' />
-                    <Qs2 src='.\images\FAQ\Ques.png' />
-                    <An1 src='.\images\FAQ\Ans.png' />
-                    <An2 src='.\images\FAQ\Ans.png' />
-                    <Q1>Q : ไม่เก่งด้านการเขียนโค้ดเลยสามารถเข้าได้ไหมครับ?</Q1>
-                    <A1>A : เข้าได้เลยครับ ไม่มีใครเกิดมาเก่งทุกอย่าง ความรู้ต่างๆ<br></br>ล้วนเกิดจากการฝึกฝน</A1>
-                    <Q2>Q : ค่ายมีกิจกรรมให้ทำเยอะไหมครับ หรือเรียนอย่างเดียว?</Q2>
-                    <A2>A : มีกิจกรรมมากมายเลยครับน้องๆ แถมยังมีของรางวัลแจก<br></br>สำหรับผู้เล่นกิจกรรมด้วยนะครับ</A2>
+                    <Content className='container col-12'>
+                        <div className='col-8 mx-auto'>
+                            <div className='text-center'>
+                                <h1>FAQs</h1>
+                                <h3>คำถามที่พบบ่อย?</h3>
+                            </div>
+                            <br/>
+                            <br/>
+                            <Question className='row col-12'>
+                                <div className='col-2 text-right'><Qb1 src='.\images\FAQ\Ques.png' /></div>
+                                <div className='col-10'>
+                                    <Box>
+                                        <p>ไม่เก่งด้านการเขียนโค้ดเลยสามารถเข้าได้ไหมครับ?</p>
+                                    </Box>
+                                </div>
+                            </Question>
+                            <br/>
+                            <Question className='row col-12'>
+                                <div className='col-10 text-right'>
+                                    <Box className='mr-0'>
+                                        <p>เข้าได้เลยครับ ไม่มีใครเกิดมาเก่งทุกอย่าง ความรู้ต่างๆ ล้วนเกิดจากการฝึกฝน</p>
+                                    </Box>
+                                </div>
+                                <div className='col-2'><Qb1 src='.\images\FAQ\Ans.png' /></div>
+                            </Question>
+                            <br/>
+                            <Question className='row col-12'>
+                                <div className='col-2 text-right'><Qb1 src='.\images\FAQ\Ques.png' /></div>
+                                <div className='col-10'>
+                                    <Box>
+                                        <p>ค่ายมีกิจกรรมให้ทำเยอะไหมครับ หรือเรียนอย่างเดียว?</p>
+                                    </Box>
+                                </div>
+                            </Question>
+                            <br/>
+                            <Question className='row col-12'>
+                                <div className='col-10 text-right'>
+                                    <Box className='mr-0'>
+                                        <p>มีกิจกรรมมากมายเลยครับน้องๆ แถมยังมีของรางวัลแจกสำหรับผู้เล่นกิจกรรมด้วยนะครับ</p>
+                                    </Box>
+                                </div>
+                                <div className='col-2'><Qb1 src='.\images\FAQ\Ans.png' /></div>
+                            </Question>
+                        </div>
+
+                    </Content>
 
                 </Background>
             </div>

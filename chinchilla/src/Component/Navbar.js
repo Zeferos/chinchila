@@ -1,35 +1,37 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
 
-
-
-const Font = styled.a`
-// text-align: center;
-// display : inline-block;
-// padding : 10px;
-font-family: 'Mali SemiBold';
-font-size :30px;
-
+const Nav = styled.div`
+    background-color: rgb(247,186,220);
+    position: fixed;
+    width: 100vw;
+    margin: 0;
+    height: 50px;
+    /* line-height: 50px;
+    vertical-align: middle; */
+    z-index:10;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-decoration: none;
 `
 
 class Navbar extends Component {
   render() {
     return (
-        <nav class="navbar navbar-default navbar-fixed-top">
+      <Nav className='col-12 row text-center'>
+        <a href='#Summer' className='col-3 nav-link text-dark'>
+          Summer
+        </a>
+        <a href='#Winter' className='col-3 nav-link text-dark'>
+          Winter
+        </a>
+        <a href='#Spring' className='col-3 nav-link text-dark'>
+          Spring
+        </a>
+        <a href='#Autumn' className='col-3 nav-link text-dark'>
+          Autumn
+        </a>
 
-          <div class="container">
-
-            {/* <Font> */}
-              <a class="navbar-brand align- text-info navbar-right" href="#">Home</a>
-              <a class="navbar-brand text-info" href='#What'>What</a>
-              <a class="navbar-brand text-info" href="#Who">Who</a>
-              <a class="navbar-brand text-info" href="#Where">Where</a>
-              <a class="navbar-brand text-info" href="#When">When</a>
-              <a class="navbar-brand text-info" href="#FAQ">FAQ</a>
-              <a class="navbar-brand text-info" href="#Contact">Contact</a>
-              
-          </div>
-        </nav>
+      </Nav >
 
     );
   }
