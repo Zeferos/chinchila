@@ -24,6 +24,14 @@ const Group = styled.img`
   z-index: 2;
   bottom: -50vh;
 `
+// const Group3 = styled.img`
+//     /* margin-top : 30px;
+//     top: 72em; */
+//   position: absolute;
+//   width: 100%;
+//   z-index: 2;
+//   bottom: -100vh;
+// `
 const Snow = styled.img`
   /* margin-top : 30px;
   top: 133em; */
@@ -38,7 +46,7 @@ const Model = styled.img`
   top: 93em; */
   right : 0em;
   position: absolute;
-  width: 25%;
+  width: 30%;
   z-index: 5;
 `
 const Content = styled.div`
@@ -77,10 +85,11 @@ class WhatWho extends Component {
         <Background>
           <Group src='.\images\Desktop2\Group.png' />
           <Group_2 src='.\images\Desktop2\Group_2.png' />
+          {/* <Group_2 src='.\images\Desktop2\Frame.png' /> */}
           <Content>
             <RectangleWhat>
-              <h1>What?</h1>
-              <p>ค่ายสำหรับน้องๆที่มีความสนใจด้าน IT โดยค่ายนี้จะให้ความรู้ 4 ด้าน คือ</p>
+              <h1><b>&nbsp;&nbsp;&nbsp;What?</b></h1>
+              <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ค่ายสำหรับน้องๆที่มีความสนใจด้าน IT โดยค่ายนี้จะให้ความรู้ 4 ด้าน คือ</p>
               <div className='col-12 row text-center mt-5 mb-5'>
                 <div className='col-6'>
                 <img src='.\images\Desktop2\Who\1077650.png'  />
@@ -106,9 +115,10 @@ class WhatWho extends Component {
             <RectangleWho>
               <div className='row col-12'>
                 <div className='col-2'>
-                  <h1>
+                  <h1><b>
                     Who
-                </h1>
+                    </b></h1>
+                <img src='.\images\Desktop2\33308.png'  />
                   <p>
                     {/*icon*/}
                   </p>

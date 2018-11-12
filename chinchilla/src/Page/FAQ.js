@@ -36,6 +36,14 @@ const Question = styled.div`
     font-size : 25px;
 
 `
+const Head = styled.h1`
+    font-size : 70px;
+    font-family: "Mali SemiBold";
+`
+const Que = styled.p`
+    font-size : 30px;
+    font-family: "Mali";
+`
 class FAQ extends Component {
     render() {
         return (
@@ -46,8 +54,9 @@ class FAQ extends Component {
                     <Content className='container col-12'>
                         <div className='col-8 mx-auto'>
                             <div className='text-center'>
-                                <h1>FAQs</h1>
-                                <h3>คำถามที่พบบ่อย?</h3>
+                            <br/><br/><br/><br/><br/><br/>
+                                <Head>FAQs</Head>
+                                <h3>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;คำถามที่พบบ่อย?</h3>
                             </div>
                             <br/>
                             <br/>
@@ -55,7 +64,7 @@ class FAQ extends Component {
                                 <div className='col-2 text-right'><Qb1 src='.\images\FAQ\Ques.png' /></div>
                                 <div className='col-10'>
                                     <Box>
-                                        <p>ไม่เก่งด้านการเขียนโค้ดเลยสามารถเข้าได้ไหมครับ?</p>
+                                        <Que>&emsp;ไม่เก่งด้านการเขียนโค้ดเลยสามารถเข้าได้ไหมครับ?</Que>
                                     </Box>
                                 </div>
                             </Question>
@@ -63,7 +72,7 @@ class FAQ extends Component {
                             <Question className='row col-12'>
                                 <div className='col-10 text-right'>
                                     <Box className='mr-0'>
-                                        <p>เข้าได้เลยครับ ไม่มีใครเกิดมาเก่งทุกอย่าง ความรู้ต่างๆ ล้วนเกิดจากการฝึกฝน</p>
+                                        <Que>เข้าได้เลยครับ ไม่มีใครเกิดมาเก่งทุกอย่าง ความรู้ต่างๆ ล้วนเกิดจากการฝึกฝน</Que>
                                     </Box>
                                 </div>
                                 <div className='col-2'><Qb1 src='.\images\FAQ\Ans.png' /></div>
@@ -73,7 +82,7 @@ class FAQ extends Component {
                                 <div className='col-2 text-right'><Qb1 src='.\images\FAQ\Ques.png' /></div>
                                 <div className='col-10'>
                                     <Box>
-                                        <p>ค่ายมีกิจกรรมให้ทำเยอะไหมครับ หรือเรียนอย่างเดียว?</p>
+                                        <Que>&emsp;ค่ายมีกิจกรรมให้ทำเยอะไหมครับ หรือเรียนอย่างเดียว?</Que>
                                     </Box>
                                 </div>
                             </Question>
@@ -81,7 +90,7 @@ class FAQ extends Component {
                             <Question className='row col-12'>
                                 <div className='col-10 text-right'>
                                     <Box className='mr-0'>
-                                        <p>มีกิจกรรมมากมายเลยครับน้องๆ แถมยังมีของรางวัลแจกสำหรับผู้เล่นกิจกรรมด้วยนะครับ</p>
+                                        <Que>มีกิจกรรมมากมายเลยครับน้องๆ แถมยังมีของรางวัลแจกสำหรับผู้เล่นกิจกรรมด้วยนะครับ</Que>
                                     </Box>
                                 </div>
                                 <div className='col-2'><Qb1 src='.\images\FAQ\Ans.png' /></div>

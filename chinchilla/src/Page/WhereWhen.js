@@ -23,6 +23,8 @@ const Box = styled.div`
 background: rgba(255, 255, 255, 0.4);
     padding: 10px;
     border-radius: 8px; 
+    font-size : 30px;
+    font-family: "Mali SemiBold";
 `
 
 const Map = styled.img`
@@ -42,22 +44,25 @@ class WhereWhen extends Component {
                     <Content className='row col-12'>
                         <div className='col-1' />
                         <Box className='col-5'>
-                            <h1>Where</h1>
+                        <br/>
+                            <h1><b>&nbsp;&nbsp;&nbsp;Where</b></h1>
+                            <br/>
                             <div className='text-center'>
                                 <Map src='.\images\WhereWhen\map.png' />
                             </div>
                             <br>
                             </br>
                             <p>
-                                มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี
+                            &nbsp;&nbsp;&nbsp;&nbsp; มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี
                             </p>
                             <p>
-                                คณะเทคโนโลยีสารสนเทศ
+                            &nbsp;&nbsp;&nbsp;&nbsp;  คณะเทคโนโลยีสารสนเทศ
                             </p>
                         </Box>
                         <div className='col-1' />
                         <Box className='col-4'>
-                            <h1>When</h1>
+                        <br/>
+                            <h1><b>&nbsp;&nbsp;&nbsp;When</b></h1>
                             <div className='text-center'>
                                 <Timeline src='.\images\WhereWhen\timeline.png' />
                             </div>
