@@ -20,17 +20,17 @@ const Nav = styled.div`
 class Navbar extends Component {
   render() {
     return (
-      <Nav className='col-12 row text-left'>
-        <a href='#Summer' className='col-3 nav-link text-dark'>
+      <Nav className='col-12 row text-center'>
+        <a href='#Summer' className='col-1 nav-link text-dark'>
           Summer
         </a>
-        <a href='#Winter' className='col-3 nav-link text-dark'>
+        <a href='#Winter' className='col-1 nav-link text-dark'>
           Winter
         </a>
-        <a href='#Spring' className='col-3 nav-link text-dark'>
+        <a href='#Spring' className='col-1 nav-link text-dark'>
           Spring
         </a>
-        <a href='#Autumn' className='col-3 nav-link text-dark'>
+        <a href='#Autumn' className='col-1 nav-link text-dark'>
           Autumn
         </a>
 
