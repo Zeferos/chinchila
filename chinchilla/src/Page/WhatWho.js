@@ -77,7 +77,10 @@ const RectangleWhat = styled.div`
   /* z-index : 4; */
   font-size : 30px;
 `
-
+const Head = styled.h1`
+    font-size : 55px;
+    font-family: "Mali SemiBold";
+`
 class WhatWho extends Component {
   render() {
     return (
@@ -88,7 +91,7 @@ class WhatWho extends Component {
           {/* <Group_2 src='.\images\Desktop2\Frame.png' /> */}
           <Content>
             <RectangleWhat>
-              <h1><b>&nbsp;&nbsp;&nbsp;What?</b></h1>
+              <Head>&nbsp;&nbsp;&nbsp;What?</Head>
               <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ค่ายสำหรับน้องๆที่มีความสนใจด้าน IT โดยค่ายนี้จะให้ความรู้ 4 ด้าน คือ</p>
               <div className='col-12 row text-center mt-5 mb-5'>
                 <div className='col-6'>
@@ -115,9 +118,9 @@ class WhatWho extends Component {
             <RectangleWho>
               <div className='row col-12'>
                 <div className='col-2'>
-                  <h1><b>
-                    Who
-                    </b></h1>
+                  <Head>
+                    Who?
+                    </Head>
                 <img src='.\images\Desktop2\33308.png'  />
                   <p>
                     {/*icon*/}

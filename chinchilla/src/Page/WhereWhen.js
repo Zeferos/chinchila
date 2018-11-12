@@ -33,7 +33,10 @@ width: 80%;
 const Timeline = styled.img`
  width: 80%;
 `
-
+const Head = styled.h1`
+    font-size : 55px;
+    font-family: "Mali SemiBold";
+`
 class WhereWhen extends Component {
     render() {
         return (
@@ -45,7 +48,7 @@ class WhereWhen extends Component {
                         <div className='col-1' />
                         <Box className='col-5'>
                         <br/>
-                            <h1><b>&nbsp;&nbsp;&nbsp;Where</b></h1>
+                            <Head>&nbsp;&nbsp;&nbsp;Where</Head>
                             <br/>
                             <div className='text-center'>
                                 <Map src='.\images\WhereWhen\map.png' />
@@ -62,7 +65,7 @@ class WhereWhen extends Component {
                         <div className='col-1' />
                         <Box className='col-4'>
                         <br/>
-                            <h1><b>&nbsp;&nbsp;&nbsp;When</b></h1>
+                            <Head>&nbsp;&nbsp;&nbsp;When</Head>
                             <div className='text-center'>
                                 <Timeline src='.\images\WhereWhen\timeline.png' />
                             </div>
