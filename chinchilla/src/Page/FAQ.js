@@ -13,8 +13,8 @@ position:absolute;
 `
 const Leaves = styled.img`
 position: absolute;
-/* left: 1em;
-top: 248em; */
+left: 3em;
+// top: 248em;
 width: 20vw;
 z-index:2;
 `

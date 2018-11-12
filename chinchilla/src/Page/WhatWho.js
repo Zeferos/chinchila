@@ -33,11 +33,11 @@ const Group = styled.img`
 //   bottom: -100vh;
 // `
 const Snow = styled.img`
-  /* margin-top : 30px;
-  top: 133em; */
-  left: 5em;
+  // margin-top : 30px;
+  // top: 123em;
+  left: 11em;
   position: absolute;
-  width: 15%;
+  width: 18%;
   bottom: 0;
   z-index: 3;
 `
@@ -88,7 +88,7 @@ class WhatWho extends Component {
         <Background>
           <Group src='.\images\Desktop2\Group.png' />
           <Group_2 src='.\images\Desktop2\Group_2.png' />
-          {/* <Group_2 src='.\images\Desktop2\Frame.png' /> */}
+          {/* <Group3 src='.\images\Desktop2\Frame.png' /> */}
           <Content>
             <RectangleWhat>
               <Head>&nbsp;&nbsp;&nbsp;What?</Head>
@@ -134,7 +134,7 @@ class WhatWho extends Component {
               </div>
             </RectangleWho>
           </Content>
-
+          
           <Snow src='.\images\Desktop2\snow.png' />
           <Model src='.\images\Desktop2\Model-01ice.png' />
         </Background>

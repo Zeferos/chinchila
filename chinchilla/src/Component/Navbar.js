@@ -14,6 +14,7 @@ const Nav = styled.div`
     text-decoration: none;
     font-size : 25px;
     font-family: Mali SemiBold;
+    text-color: "#6e6b6d";
 `
 
 class Navbar extends Component {

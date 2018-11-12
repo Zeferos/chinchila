@@ -16,7 +16,7 @@ color: white;
 `
 
 const Logo = styled.img`
- width: 50%;
+ width: 60%;
 `
 const LineLeft = styled.div`
     border-right: 5px solid white;
@@ -31,7 +31,7 @@ class Contact extends Component {
                 <Background className='text-center'>
                 <br/><br/><br/><br/>
                     <Contacttxt>Contact</Contacttxt>
-                    <br/>
+                    <br/><br/><br/>
                     <div className='container'>
                         <div className='row col-12 m-0'>
                             <div className='col-2'>
