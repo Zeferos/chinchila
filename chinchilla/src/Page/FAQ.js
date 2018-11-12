@@ -41,7 +41,7 @@ const Head = styled.h1`
     font-family: "Mali SemiBold";
 `
 const Que = styled.p`
-    font-size : 30px;
+    font-size : 32px;
     font-family: "Mali";
 `
 class FAQ extends Component {
