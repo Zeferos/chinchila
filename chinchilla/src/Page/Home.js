@@ -14,8 +14,8 @@ const Mascot = styled.img`
 `
 const HelloWorld = styled.img`
   position: absolute;
-  left: 12.75em;
-  top: 10em;
+  left: 16em;
+  top: 12em;
   width: 75%;
 `
 
