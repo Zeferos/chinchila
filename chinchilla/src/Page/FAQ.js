@@ -38,7 +38,7 @@ const Question = styled.div`
 `
 const Head = styled.h1`
     font-size : 70px;
-    font-family: "Mali SemiBold";
+    font-family: "Mali";
 `
 const Que = styled.p`
     font-size : 32px;

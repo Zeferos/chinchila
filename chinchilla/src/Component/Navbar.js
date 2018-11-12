@@ -13,7 +13,7 @@ const Nav = styled.div`
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     text-decoration: none;
     font-size : 25px;
-    font-family: Mali SemiBold;
+    font-family: Mali;
     text-color: "#6e6b6d";
 `
 
@@ -21,6 +21,7 @@ class Navbar extends Component {
   render() {
     return (
       <Nav className='col-12 row text-center'>
+
         <a href='#Summer' className='col-1 nav-link text-dark'>
           Summer
         </a>

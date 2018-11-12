@@ -79,7 +79,7 @@ const RectangleWhat = styled.div`
 `
 const Head = styled.h1`
     font-size : 55px;
-    font-family: "Mali SemiBold";
+    font-family: "Mali";
 `
 class WhatWho extends Component {
   render() {

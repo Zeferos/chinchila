@@ -24,7 +24,7 @@ background: rgba(255, 255, 255, 0.4);
     padding: 10px;
     border-radius: 8px; 
     font-size : 30px;
-    font-family: "Mali SemiBold";
+    font-family: "Mali";
 `
 
 const Map = styled.img`
@@ -35,7 +35,7 @@ const Timeline = styled.img`
 `
 const Head = styled.h1`
     font-size : 55px;
-    font-family: "Mali SemiBold";
+    font-family: "Mali";
 `
 class WhereWhen extends Component {
     render() {
