@@ -6,12 +6,14 @@ const Nav = styled.div`
     position: fixed;
     width: 100vw;
     margin: 0;
-    height: 50px;
+    height: 60px;
     /* line-height: 50px;
     vertical-align: middle; */
     z-index:10;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     text-decoration: none;
+    font-size : 25px;
+    font-family: Mali SemiBold;
 `
 
 class Navbar extends Component {

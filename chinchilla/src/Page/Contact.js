@@ -29,6 +29,7 @@ class Contact extends Component {
         return (
             <div>
                 <Background className='text-center'>
+                <br/><br/><br/><br/>
                     <Contacttxt>Contact</Contacttxt>
                     <br/>
                     <div className='container'>
@@ -59,4 +60,3 @@ class Contact extends Component {
 
 export default Contact;
 
-//href="https://www.facebook.com/alchemistitbangmod/"

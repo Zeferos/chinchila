@@ -33,6 +33,7 @@ const Box = styled.div`
 `
 const Question = styled.div`
     margin: 0;
+    font-size : 25px;
 
 `
 class FAQ extends Component {

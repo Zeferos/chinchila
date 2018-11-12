@@ -31,7 +31,7 @@ const Snow = styled.img`
   position: absolute;
   width: 15%;
   bottom: 0;
-  z-index: 5;
+  z-index: 3;
 `
 const Model = styled.img`
   /* margin-top : 30px;
@@ -55,16 +55,19 @@ const RectangleWho = styled.div`
   border-radius: 8px;
   top: 100px;
   /* z-index : 4; */
+  font-size : 30px;
 `
 const RectangleWhat = styled.div`
   position: relative;
   background: rgba(255, 255, 255, 0.4);
   width: 60vw;
-  margin-left: 20px;
+  // margin-left: 50px;
+  margin-left: 20%;
   padding: 20px;
   border-radius: 8px;
   /* top: 100px; */
   /* z-index : 4; */
+  font-size : 30px;
 `
 
 class WhatWho extends Component {
@@ -80,18 +83,22 @@ class WhatWho extends Component {
               <p>ค่ายสำหรับน้องๆที่มีความสนใจด้าน IT โดยค่ายนี้จะให้ความรู้ 4 ด้าน คือ</p>
               <div className='col-12 row text-center mt-5 mb-5'>
                 <div className='col-6'>
-                  Design
+                <img src='.\images\Desktop2\Who\1077650.png'  />
+                &nbsp;  &nbsp; Design                
                 </div>
                 <div className='col-6'>
-                  Font-End
+                <img src='.\images\Desktop2\Who\1063206.png'  />
+                &nbsp;  &nbsp; Font-End
                 </div>
               </div>
               <div className='col-12 row text-center mt-5 mb-5'>
                 <div className='col-6'>
-                  Infrastructure
+                <img src='.\images\Desktop2\Who\993717.png'  />
+                &nbsp;  &nbsp; Infrastructure
                 </div>
                 <div className='col-6'>
-                  Game
+                <img src='.\images\Desktop2\Who\262545.png'  />
+                &nbsp;  &nbsp; Game
                 </div>
               </div>
               <p>ค่ายนี้ประกอบด้วยการเรียนและปฏิบัติจริง มีกิจกรรมต่างๆมากมาย รวมถึงมีเกมให้เล่นและได้รู้จักเพื่อนๆมากมายภายในค่ายได้ที่ มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี </p>
